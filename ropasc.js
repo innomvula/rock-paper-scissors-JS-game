@@ -1,6 +1,6 @@
 // set the score to win the game
 
-function setWinScore() {
+function getWinScore() {
     const bestOf = parseInt(prompt("Best of: "));
     const winScore = Math.floor(bestOf/2) + 1;
     return winScore;
