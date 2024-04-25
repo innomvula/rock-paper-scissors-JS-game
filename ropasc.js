@@ -25,7 +25,7 @@ function getUserChoice() {
 function ropasc() {
     let userScore = 0
     let cpuScore = 0
-    let winScore = setWinScore()
+    let winScore = getWinScore()
     let haveWinScore = false
     rps = getComputerChoice()[0]
 
