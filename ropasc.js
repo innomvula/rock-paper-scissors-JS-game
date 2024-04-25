@@ -23,15 +23,15 @@ function getUserChoice() {
 
 // Rock Paper scissors
 function ropasc() {
-    let userScore = 0
-    let cpuScore = 0
-    let winScore = getWinScore()
-    let haveWinScore = false
-    let rps = getComputerChoice()[0]
+    let userScore = 0;
+    let cpuScore = 0;
+    let winScore = getWinScore();
+    let haveWinScore = false;
+    let rps = getComputerChoice()[0];
 
     while (haveWinScore == false) {
-        let cpuChoice = getComputerChoice()[1]
-        let userChoice = getUserChoice()
+        let cpuChoice = getComputerChoice()[1];
+        let userChoice = getUserChoice();
 
         // check if user choice is in list of availble options. 
         // If not print error statement and request choice again.
